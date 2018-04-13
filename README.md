@@ -7,5 +7,6 @@ When training deep neural network, the most important part is collecting enough 
 One of effecient resource of data is website, thus, it's important to collect neccessary data from website in effecient way.
 
 ## Version and Abilty
-  - Version 0.1: Fetching the websites.
+  - Version 0.1:  Fetching the websites.
+  - Version 0.2:  Fetching the pictures.
 
