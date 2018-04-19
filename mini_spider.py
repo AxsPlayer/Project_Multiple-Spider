@@ -18,11 +18,11 @@ import os
 import sys
 import time
 
-from python_goodcoder_v5.config import output_log
-from python_goodcoder_v5.config import read_config
-from python_goodcoder_v5.config import save_seed_html
-from python_goodcoder_v5.crawl_and_save_website import crawl_and_parse_website
-from python_goodcoder_v5.multiple_threads import create_threads
+from config import output_log
+from config import read_config
+from config import save_seed_html
+from crawl_and_save_website import crawl_and_parse_website
+from multiple_threads import create_threads
 
 
 def main():
