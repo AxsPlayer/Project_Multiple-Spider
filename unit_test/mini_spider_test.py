@@ -15,10 +15,10 @@ import logging
 import os
 import unittest
 
-from python_goodcoder_v4.config import output_log
-from python_goodcoder_v4.config import read_config
-from python_goodcoder_v4.crawl_and_save_website import crawl_and_parse_website
-from python_goodcoder_v4.crawl_and_save_website import save_html_into_file
+from config import output_log
+from config import read_config
+from crawl_and_save_website import crawl_and_parse_website
+from crawl_and_save_website import save_html_into_file
 
 
 class TestSpider(unittest.TestCase):
