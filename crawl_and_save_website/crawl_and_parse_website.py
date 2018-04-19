@@ -19,7 +19,7 @@ import socket
 
 import bs4
 
-from python_goodcoder_v5.crawl_and_save_website import save_html_into_file
+from crawl_and_save_website import save_html_into_file
 
 
 def parse_sublink_to_list(a_blocks, html_address):
