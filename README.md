@@ -8,6 +8,7 @@ One of effecient resource of data is website, thus, it's important to collect ne
 
 ## Usage.
 ***STEP1***
+
 For using this web spider, you should firstly write all the configuration into config/spider.conf. 
 The configuration in 'spider.conf' supported by now includes:
 
@@ -27,12 +28,16 @@ target_url: The Regular Expression to define the url format which should be down
 
 thread_count: The thread number set to crawl website, which is used to speed up crawling. Eg. 6
 
+
 ***STEP2***
+
 Then run the following script:
     
     python mini_spider.py -c config/spider.conf
   
+
 ***Unit Test***
+
 The method for unit test:
     
     python -m unittest mini_spider_test
