@@ -1,16 +1,5 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
-################################################################################
-#
-# Copyright (c) 2017 Personal. All Rights Reserved
-#
-################################################################################
-"""
-Python code to crawl websites given configuration.
-
-Authors: Daniel&
-Date: 2017/12/10 12:49:06
-"""
 import argparse
 import ConfigParser
 import logging
