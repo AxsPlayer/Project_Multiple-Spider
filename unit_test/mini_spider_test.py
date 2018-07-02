@@ -1,16 +1,5 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
-################################################################################
-#
-# Copyright (c) 2017 Personal. All Rights Reserved
-#
-################################################################################
-"""
-The file is designed for unit test.
-
-Authors: Daniel&
-Date: 2017/12/10 12:49:06
-"""
 import logging
 import os
 import unittest
