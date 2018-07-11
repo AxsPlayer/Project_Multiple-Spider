@@ -46,7 +46,7 @@ def save_html_to_file(html_name, html_content, url_depth, **parameter_dictionary
     if match_result:
         logging.info('Matches!')
         target_address = parameter_dictionary['output_directory'] + \
-            '/' + html_name.replace('/', '_').replace(':', '-')
+            '/' + html_name.replace('/', '_').replace(':', '-') + '.html'
         try:
             with open(target_address, 'wb') as f:
                 f.write(html_content)

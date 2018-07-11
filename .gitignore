@@ -102,3 +102,6 @@ ENV/
 .DS_Store
 log/crawl_html.log.wf
 *.htm
+*.html
+log/crawl_html.log.2018-06-07
+log/crawl_html.log.wf.2018-06-07
