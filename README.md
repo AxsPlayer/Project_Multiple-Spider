@@ -12,21 +12,14 @@ One of effecient resource of data is website, thus, it's important to collect ne
 For using this web spider, you should firstly write all the configuration into config/spider.conf. 
 The configuration in 'spider.conf' supported by now includes:
 
-***[spider]:*** Section Header. Eg. [spider]
-
-***url_list_file:*** The text file which contains the url seed for crawling. Eg. config/urls
-
-***output_directory:*** The output fold to save crawled HTML pages. Eg. ./output
-
-***max_depth:*** The maximum depth related to seed url for crawling. Eg. 2
-
-***crawl_interval:*** The sleep time between each crawling, in the unit of second, which is designed not to interupt websites' operation. Eg. 3
-
-***crawl_timeout:*** The maximum waiting time for http response, in the unit of second. Eg. 6
-
-***target_url:*** The Regular Expression to define the url format which should be downloaded. Eg. *.(htm|html)$
-
-***thread_count:*** The thread number set to crawl website, which is used to speed up crawling. Eg. 6
+    [spider]: Section Header. Eg. [spider]
+    url_list_file: The text file which contains the url seed for crawling. Eg. config/urls
+    output_directory: The output fold to save crawled HTML pages. Eg. ./output
+    max_depth: The maximum depth related to seed url for crawling. Eg. 2
+    crawl_interval: The sleep time between each crawling, in the unit of second, which is designed not to interupt websites' operation. Eg. 3
+    crawl_timeout: The maximum waiting time for http response, in the unit of second. Eg. 6
+    target_url: The Regular Expression to define the url format which should be downloaded. Eg. *.(htm|html)$
+    thread_count: The thread number set to crawl website, which is used to speed up crawling. Eg. 6
 
 
 #### STEP2
