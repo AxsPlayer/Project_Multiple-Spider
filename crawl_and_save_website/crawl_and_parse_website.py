@@ -8,7 +8,7 @@
 """
 The file is designed to crawl the sublinks.
 
-Authors: Daniel&
+Authors: AxsPlayer
 Date: 2017/12/10 12:49:06
 """
 import logging
