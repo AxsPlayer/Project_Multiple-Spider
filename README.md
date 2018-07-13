@@ -4,7 +4,7 @@ The web-spider aims to crawl not only the whole websites, but also to crawl elem
 
 ## Motivation.
 When training deep neural network, the most important part is collecting enough amount of data.
-One of effecient resource of data is website, thus, it's important to collect neccessary data from website in effecient way.
+One of effecient resources of data is website, thus, it's important to collect neccessary data from website in an effecient way.
 
 ## Usage.
 #### STEP1
@@ -36,7 +36,7 @@ The method for unit test:
     python -m unittest mini_spider_test
 
 
-## Version and Abilty
+## Version and Ability
   - Version 0.1.0:  Fetching the websites.
   - Version Next:  Fetching the pictures.
 
