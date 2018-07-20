@@ -20,6 +20,7 @@ The configuration in 'spider.conf' supported by now includes:
     [crawl_timeout]: The maximum waiting time for http response, in the unit of second. Eg. 6
     [target_url]: The Regular Expression to define the url format which should be downloaded. Eg. *.(htm|html)$
     [thread_count]: The thread number set to crawl website, which is used to speed up crawling. Eg. 6
+    [content_type]: The content type which would be crawled from target urls in queue. It mainly contains a list consisting of 'pic' and others coming soon. If set as 'pic', then the images in urls would be crawled. Otherwise, the whole website as .html file would be copied. Eg. pic. 
 
 
 #### STEP2
@@ -38,5 +39,5 @@ The method for unit test:
 
 ## Version and Abilty
   - Version 0.1.0:  Fetching the websites.
-  - Version Next:  Fetching the pictures.
+  - Version 0.2.0a1 (2018-07-20):  Fetching the pictures.
 
