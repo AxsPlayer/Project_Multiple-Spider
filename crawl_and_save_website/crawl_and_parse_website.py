@@ -22,28 +22,32 @@ import bs4
 from crawl_and_save_website import save_html_into_file
 
 
-def parse_sublink_to_list(a_blocks, html_address):
+def parse_sublink_to_list(a_blocks, html_address, ref_name):
     """Parse html content and save sublinks into list.
 
-    Search for <href> records in <a> block, convert the sublinks into suitable format,
+    Search for <ref_name> records in <a>/<img> block, convert the sublinks into suitable format,
     and save converted sublinks into list.
 
     Args:
-        a_blocks: The input list of <a> blocks to search for sublinks.
+        a_blocks: The input list of <a>/<img> blocks to search for sublinks.
         html_address: The html address of the mother links.
+        ref_name: The tag name of reference.
 
     Returns:
         The list of sublinks. For example: ['baidu.com', 'google.com']
     """
     sublink_list = []
     for each in a_blocks:
-        if each.get('href') is None:
+        if each.get(ref_name) is None:
             continue
-        sublink = each.get('href')
+        sublink = each.get(ref_name)
         sublink_lower = sublink.lower()
         # Decide whether url address should be joint or not.
         if sublink_lower.startswith('http'):
             sublink_conversion = sublink
+        # In the case to crawl pics, some reference is start with //, and you should add http: as prefix.
+        elif sublink_lower.startswith('//'):
+            sublink_conversion = urlparse.urljoin('http:', sublink)
         else:
             sublink_conversion = urlparse.urljoin(html_address, sublink)
         # Prevent from saving duplicate links into list.
@@ -102,8 +106,13 @@ def save_sublinks_to_queue(html_address, **parameter_dictionary):
     soup = bs4.BeautifulSoup(html_content_conversion, "lxml")
     href_ = soup.find_all(name='a')
 
+    # If the target content is pic, convert html content to list of urls of pics.
+    if parameter_dictionary['content_type'] == 'pic':
+        source_ = soup.find_all(name='img')
+        html_content = parse_sublink_to_list(source_, html_address, 'src')
+
     # Parse the <a> blocks and save sublinks into list.
-    sublink_list = parse_sublink_to_list(href_, html_address)
+    sublink_list = parse_sublink_to_list(href_, html_address, 'href')
 
     time.sleep(float(parameter_dictionary['crawl_interval']))  # Set the sleep time interval for spider.
 

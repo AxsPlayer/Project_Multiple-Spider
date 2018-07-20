@@ -105,3 +105,6 @@ log/crawl_html.log.wf
 *.html
 log/crawl_html.log.2018-06-07
 log/crawl_html.log.wf.2018-06-07
+*.conf
+*.jpg
+*.2018-07-11
