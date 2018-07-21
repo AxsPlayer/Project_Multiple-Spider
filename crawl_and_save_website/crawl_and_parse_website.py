@@ -45,9 +45,9 @@ def parse_sublink_to_list(a_blocks, html_address, ref_name):
         # Decide whether url address should be joint or not.
         if sublink_lower.startswith('http'):
             sublink_conversion = sublink
-        # In the case to crawl pics, some reference is start with //, and you should add http: as prefix.
-        elif sublink_lower.startswith('//'):
-            sublink_conversion = urlparse.urljoin('http:', sublink)
+        # In the case to crawl pics, some reference is start with //,
+        # and you should add http: as prefix. Function urlparse.urljoin
+        # can handle all these.
         else:
             sublink_conversion = urlparse.urljoin(html_address, sublink)
         # Prevent from saving duplicate links into list.
