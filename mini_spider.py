@@ -1,10 +1,8 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
-import argparse
 import ConfigParser
 import logging
 import os
-import sys
 import time
 
 from config import output_log
@@ -14,26 +12,20 @@ from crawl_and_save_website import crawl_and_parse_website
 from multiple_threads import create_threads
 
 
-def main():
-    """The main process to crawl the target websites."""
-    # Set the code and input configuration.
-    parser = argparse.ArgumentParser(description='This is a mini web spider.')
-    parser.add_argument('-v', action='version', version='Mini spider 0.1')
-    parser.add_argument('-c', required=True, help='The configuration of the website uri.')
+def crawl(configuration_file_path):
+    """The main process to crawl the target websites.
 
-    # Print help manual for system input.
-    if len(sys.argv) == 0:
-        parser.print_help()
-        return 1
+    Crawl the websites or elements data, according to configuration.
 
+    :param configuration_file_path: The file path of configuration, named spider.conf.
+
+    :return: The websites or pics saved in ./output/, in form of .html or .jpg.
+    """
     # Create logger for debugging.
     output_log.init_log('./log/crawl_html')
 
-    # Read and save configurations into dictionary.
-    args = parser.parse_args()
-    config_file_name = args.c
     # Catch the raised error from parse_config function.
-    parameter_dictionary = read_config.parse_config(config_file_name)
+    parameter_dictionary = read_config.parse_config(configuration_file_path)
     if parameter_dictionary == 1:
         logging.error('\nThe error occurs in read_config.py module.')
         return 1
@@ -74,10 +66,3 @@ def main():
     # Record the running time.
     time_interval = time.time() - start_time
     logging.info('\nTime interval is %s seconds.' % time_interval)
-
-
-if __name__ == "__main__":
-    '''The main process to crawl the target websites.'''
-    main()
-
-
