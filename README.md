@@ -1,4 +1,4 @@
-# Tool_Python_web-spider
+# x-spider
 This tool is designed for crawling and saving websites in multiple threads.
 The web-spider aims to crawl not only the whole websites, but also to crawl elements of websites, such as pictures and text.
 
@@ -9,7 +9,7 @@ One of effecient resource of data is website, thus, it's important to collect ne
 ## Usage.
 #### STEP1
 
-For using this web spider, you should firstly write all the configuration into config/spider.conf. 
+For using this web spider, you should firstly write all the configuration into spider.conf. 
 The configuration in 'spider.conf' supported by now includes:
 
     [spider]: Section Header. Eg. [spider]
@@ -30,8 +30,18 @@ The configuration in 'spider.conf' supported by now includes:
 
 Then run the following script:
     
-    python mini_spider.py -c config/spider.conf
-  
+    from x-spider.mini_spider import crawl
+    crawl(configuration_file_path)
+    
+The parameters set above is:
+- configuration_file_path: The file path of configuration, named spider.conf.
+
+The output of function is:
+- The websites or pics saved in ./output/, in form of .html or .jpg.
+
+Attention:
+- ./log/: You should firstly create ./log file to save log in function.
+- ./spider.conf: You should firstly create `spider.conf`, and the path of this configuration is relative to current fold.
 
 #### Unit Test
 
@@ -41,6 +51,6 @@ The method for unit test:
 
 
 ## Version and Abilty
-  - Version 0.1.0:  Fetching the websites.
-  - Version 0.2.0a1 (2018-07-20):  Fetching the pictures.
+  - Version 0.1.0a1:  Fetching the websites, saved as .html file.
+  - Version 0.1.0b1 (2018-07-20):  Fetching the pictures, saved as .jpg file.
 
