@@ -1,0 +1,22 @@
+WARNING: 06-07 19:29:43: crawl_and_parse_website.py:88 * 123145306509312 
+https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+ with 302.
+WARNING: 06-07 19:29:44: crawl_and_parse_website.py:92 * 123145324486656 
+https://www.tmall.hk/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561833841102_2429983 is not found. The reason is ('_ssl.c:645: The handshake operation timed out',).
+WARNING: 06-07 19:29:48: crawl_and_parse_website.py:88 * 123145324486656 
+https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.
+WARNING: 06-07 19:29:49: crawl_and_parse_website.py:88 * 123145324486656 
+https://list.tmall.com/search_product.htm?abbucket=&active=1&acm=lb-zebra-148799-667863.1003.4.708026&sort=s&spm=3.7396704.20000007.22.7CvfAH&abtest=&pos=3&cat=50023064&theme=469&from=sn_1_rightnav&style=g&search_condition=7&scm=1003.4.lb-zebra-148799-667863.OTHER_14561666034064_708026&aldid=75994#J_crumbs is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.
+WARNING: 06-07 19:35:19: crawl_and_parse_website.py:88 * 123145306509312 
+https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+ with 302.
+WARNING: 06-07 19:35:24: crawl_and_parse_website.py:88 * 123145306509312 
+https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.

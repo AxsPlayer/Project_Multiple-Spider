@@ -1,0 +1,186 @@
+INFO: 06-07 19:29:27: save_seed_html.py:54 * 140735195729920 Initial seed html address are imported in queue.
+INFO: 06-07 19:29:27: mini_spider.py:73 * 140735195729920 Start time is 1528370967.89.
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 0
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 1
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 2
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 3
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 4
+INFO: 06-07 19:29:27: create_threads.py:64 * 140735195729920 
+Start thread 5
+INFO: 06-07 19:29:27: mini_spider.py:82 * 140735195729920 
+Threads join.
+INFO: 06-07 19:29:31: save_html_into_file.py:45 * 123145306509312 
+[0] The crawled url is https://www.tmall.com/, threading crawl_html_0 is running.
+INFO: 06-07 19:29:35: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://i.taobao.com/my_taobao.htm, threading crawl_html_2 is running.
+INFO: 06-07 19:29:35: save_html_into_file.py:47 * 123145316073472 Matches!
+INFO: 06-07 19:29:35: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://mai.taobao.com/seller_admin.htm, threading crawl_html_4 is running.
+INFO: 06-07 19:29:35: save_html_into_file.py:47 * 123145324486656 Matches!
+INFO: 06-07 19:29:35: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://trade.taobao.com/trade/itemlist/list_sold_items.htm?t=20110530, threading crawl_html_5 is running.
+INFO: 06-07 19:29:35: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://trade.taobao.com/trade/itemlist/list_bought_items.htm?t=20110530, threading crawl_html_3 is running.
+INFO: 06-07 19:29:36: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://618.tmall.com/?wh_weex=true&wh_biz=tm&acm=lb-zebra-148799-741251.1003.4.3556096&scm=1003.4.lb-zebra-148799-741251.OTHER_1_3556096, threading crawl_html_1 is running.
+INFO: 06-07 19:29:36: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://cart.tmall.com/cart/myCart.htm?from=btop, threading crawl_html_0 is running.
+INFO: 06-07 19:29:38: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://shoucang.taobao.com/shop_collect_list.htm?scjjc=c1, threading crawl_html_2 is running.
+INFO: 06-07 19:29:38: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://shoucang.taobao.com/item_collect.htm, threading crawl_html_4 is running.
+INFO: 06-07 19:29:38: save_html_into_file.py:47 * 123145324486656 Matches!
+INFO: 06-07 19:29:38: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://shoucang.taobao.com/shop_collect_list.htm, threading crawl_html_5 is running.
+INFO: 06-07 19:29:38: save_html_into_file.py:47 * 123145328693248 Matches!
+INFO: 06-07 19:29:39: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://mai.taobao.com, threading crawl_html_0 is running.
+INFO: 06-07 19:29:39: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://pages.tmall.com/wow/portal/act/app-download?scm=1027.1.1.1, threading crawl_html_3 is running.
+INFO: 06-07 19:29:39: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://www.taobao.com/, threading crawl_html_1 is running.
+INFO: 06-07 19:29:42: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://chaoshi.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561837688591_2429983, threading crawl_html_2 is running.
+INFO: 06-07 19:29:42: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://vip.tmall.com/vip/index.htm?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561845383563_2429983, threading crawl_html_5 is running.
+INFO: 06-07 19:29:42: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://miao.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561818451146_2429983, threading crawl_html_3 is running.
+INFO: 06-07 19:29:43: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://3c.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561822298635_2429983, threading crawl_html_0 is running.
+WARNING: 06-07 19:29:43: crawl_and_parse_website.py:88 * 123145306509312 
+https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+ with 302.
+INFO: 06-07 19:29:43: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983, threading crawl_html_0 is running.
+WARNING: 06-07 19:29:44: crawl_and_parse_website.py:92 * 123145324486656 
+https://www.tmall.hk/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561833841102_2429983 is not found. The reason is ('_ssl.c:645: The handshake operation timed out',).
+INFO: 06-07 19:29:44: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://www.tmall.hk/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561833841102_2429983, threading crawl_html_4 is running.
+INFO: 06-07 19:29:44: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://yao.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561829993617_2429983, threading crawl_html_1 is running.
+INFO: 06-07 19:29:45: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://www.tmall.com/wow/mlh/act/timei?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561806908679_2429983, threading crawl_html_5 is running.
+INFO: 06-07 19:29:46: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://www.alitrip.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_145618030611810_2429983, threading crawl_html_3 is running.
+INFO: 06-07 19:29:47: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://wt.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561826146128_2429983, threading crawl_html_2 is running.
+INFO: 06-07 19:29:47: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://nvzhuang.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561681423980_708026, threading crawl_html_0 is running.
+INFO: 06-07 19:29:48: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://neiyi.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561681423980_708026, threading crawl_html_4 is running.
+INFO: 06-07 19:29:48: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://nanzhuang.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561677576501_708026, threading crawl_html_1 is running.
+WARNING: 06-07 19:29:48: crawl_and_parse_website.py:88 * 123145324486656 
+https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.
+INFO: 06-07 19:29:48: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100, threading crawl_html_4 is running.
+INFO: 06-07 19:29:49: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://sports.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561677576501_708026, threading crawl_html_5 is running.
+WARNING: 06-07 19:29:49: crawl_and_parse_website.py:88 * 123145324486656 
+https://list.tmall.com/search_product.htm?abbucket=&active=1&acm=lb-zebra-148799-667863.1003.4.708026&sort=s&spm=3.7396704.20000007.22.7CvfAH&abtest=&pos=3&cat=50023064&theme=469&from=sn_1_rightnav&style=g&search_condition=7&scm=1003.4.lb-zebra-148799-667863.OTHER_14561666034064_708026&aldid=75994#J_crumbs is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.
+INFO: 06-07 19:29:49: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://list.tmall.com/search_product.htm?abbucket=&active=1&acm=lb-zebra-148799-667863.1003.4.708026&sort=s&spm=3.7396704.20000007.22.7CvfAH&abtest=&pos=3&cat=50023064&theme=469&from=sn_1_rightnav&style=g&search_condition=7&scm=1003.4.lb-zebra-148799-667863.OTHER_14561666034064_708026&aldid=75994#J_crumbs, threading crawl_html_4 is running.
+INFO: 06-07 19:29:49: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://nvxie.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561689118972_708026, threading crawl_html_3 is running.
+INFO: 06-07 19:29:50: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://nanxie.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561689118972_708026, threading crawl_html_2 is running.
+INFO: 06-07 19:29:51: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://bag.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561689118972_708026, threading crawl_html_0 is running.
+INFO: 06-07 19:29:51: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://watch.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561666034064_708026, threading crawl_html_1 is running.
+INFO: 06-07 19:29:52: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://dai.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561666034064_708026, threading crawl_html_5 is running.
+INFO: 06-07 19:29:53: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://3c.tmall.com?go=act&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561662186585_708026, threading crawl_html_3 is running.
+INFO: 06-07 19:29:53: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://shouji.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561662186585_708026, threading crawl_html_4 is running.
+INFO: 06-07 19:35:03: save_seed_html.py:54 * 140735195729920 Initial seed html address are imported in queue.
+INFO: 06-07 19:35:03: mini_spider.py:73 * 140735195729920 Start time is 1528371303.6.
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 0
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 1
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 2
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 3
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 4
+INFO: 06-07 19:35:03: create_threads.py:64 * 140735195729920 
+Start thread 5
+INFO: 06-07 19:35:03: mini_spider.py:82 * 140735195729920 
+Threads join.
+INFO: 06-07 19:35:07: save_html_into_file.py:45 * 123145306509312 
+[0] The crawled url is https://www.tmall.com/, threading crawl_html_0 is running.
+INFO: 06-07 19:35:10: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://trade.taobao.com/trade/itemlist/list_sold_items.htm?t=20110530, threading crawl_html_1 is running.
+INFO: 06-07 19:35:10: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://i.taobao.com/my_taobao.htm, threading crawl_html_3 is running.
+INFO: 06-07 19:35:10: save_html_into_file.py:47 * 123145320280064 Matches!
+INFO: 06-07 19:35:10: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://mai.taobao.com/seller_admin.htm, threading crawl_html_5 is running.
+INFO: 06-07 19:35:10: save_html_into_file.py:47 * 123145328693248 Matches!
+INFO: 06-07 19:35:10: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://618.tmall.com/?wh_weex=true&wh_biz=tm&acm=lb-zebra-148799-741251.1003.4.3556096&scm=1003.4.lb-zebra-148799-741251.OTHER_1_3556096, threading crawl_html_2 is running.
+INFO: 06-07 19:35:10: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://trade.taobao.com/trade/itemlist/list_bought_items.htm?t=20110530, threading crawl_html_4 is running.
+INFO: 06-07 19:35:12: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://cart.tmall.com/cart/myCart.htm?from=btop, threading crawl_html_0 is running.
+INFO: 06-07 19:35:13: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://shoucang.taobao.com/item_collect.htm, threading crawl_html_3 is running.
+INFO: 06-07 19:35:13: save_html_into_file.py:47 * 123145320280064 Matches!
+INFO: 06-07 19:35:13: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://shoucang.taobao.com/shop_collect_list.htm?scjjc=c1, threading crawl_html_1 is running.
+INFO: 06-07 19:35:14: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://pages.tmall.com/wow/portal/act/app-download?scm=1027.1.1.1, threading crawl_html_2 is running.
+INFO: 06-07 19:35:14: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://shoucang.taobao.com/shop_collect_list.htm, threading crawl_html_5 is running.
+INFO: 06-07 19:35:14: save_html_into_file.py:47 * 123145328693248 Matches!
+INFO: 06-07 19:35:14: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://www.taobao.com/, threading crawl_html_4 is running.
+INFO: 06-07 19:35:15: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://mai.taobao.com, threading crawl_html_0 is running.
+INFO: 06-07 19:35:18: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://vip.tmall.com/vip/index.htm?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561845383563_2429983, threading crawl_html_2 is running.
+INFO: 06-07 19:35:18: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://3c.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561822298635_2429983, threading crawl_html_5 is running.
+INFO: 06-07 19:35:18: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://miao.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561818451146_2429983, threading crawl_html_4 is running.
+INFO: 06-07 19:35:19: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://yao.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561829993617_2429983, threading crawl_html_0 is running.
+INFO: 06-07 19:35:19: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://chaoshi.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561837688591_2429983, threading crawl_html_3 is running.
+WARNING: 06-07 19:35:19: crawl_and_parse_website.py:88 * 123145306509312 
+https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+ with 302.
+INFO: 06-07 19:35:19: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://suning.tmall.com?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_11_2429983, threading crawl_html_0 is running.
+INFO: 06-07 19:35:21: save_html_into_file.py:45 * 123145311866880 
+[1] The crawled url is https://www.tmall.hk/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561833841102_2429983, threading crawl_html_1 is running.
+INFO: 06-07 19:35:22: save_html_into_file.py:45 * 123145316073472 
+[1] The crawled url is https://wt.tmall.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561826146128_2429983, threading crawl_html_2 is running.
+INFO: 06-07 19:35:22: save_html_into_file.py:45 * 123145320280064 
+[1] The crawled url is https://nvzhuang.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561681423980_708026, threading crawl_html_3 is running.
+INFO: 06-07 19:35:22: save_html_into_file.py:45 * 123145328693248 
+[1] The crawled url is https://www.tmall.com/wow/mlh/act/timei?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561806908679_2429983, threading crawl_html_5 is running.
+INFO: 06-07 19:35:22: save_html_into_file.py:45 * 123145324486656 
+[1] The crawled url is https://www.alitrip.com/?acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_145618030611810_2429983, threading crawl_html_4 is running.
+INFO: 06-07 19:35:23: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://neiyi.tmall.com/?acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561681423980_708026, threading crawl_html_0 is running.
+WARNING: 06-07 19:35:24: crawl_and_parse_website.py:88 * 123145306509312 
+https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100 is not found. The reason is The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found with 302.
+INFO: 06-07 19:35:24: save_html_into_file.py:45 * 123145306509312 
+[1] The crawled url is https://list.tmall.com/search_product.htm?q=%B9%D9%B7%BD%D6%B1%CA%DB&spm=875.7931836/B.subpannel2016034.1.GU94AS&vmarket=29890&style=w&theme=275&acm=lb-zebra-148799-667863.1003.4.708026&scm=1003.4.lb-zebra-148799-667863.OTHER_14561685271493_708026&smAreaId=330100, threading crawl_html_0 is running.

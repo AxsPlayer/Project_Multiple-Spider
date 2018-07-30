@@ -1,0 +1,40 @@
+WARNING: 07-11 11:35:03: crawl_and_parse_website.py:92 * 123145324486656 
+javascript:void(0); is not found. The reason is unknown url type: javascript.
+WARNING: 07-11 11:35:26: crawl_and_parse_website.py:88 * 123145328693248 
+http://zzk.cnblogs.com/ is not found. The reason is Forbidden with 403.
+WARNING: 07-11 11:47:14: crawl_and_parse_website.py:92 * 123145306509312 
+javascript:void(0); is not found. The reason is unknown url type: javascript.
+WARNING: 07-11 11:48:02: crawl_and_parse_website.py:88 * 123145316610048 
+http://zzk.cnblogs.com/ is not found. The reason is Forbidden with 403.
+WARNING: 07-11 11:49:58: crawl_and_parse_website.py:88 * 123145306509312 
+http://www.hujiang.com is not found. The reason is Forbidden with 403.
+WARNING: 07-11 11:50:21: crawl_and_parse_website.py:88 * 123145316610048 
+http://www.miitbeian.gov.cn is not found. The reason is Forbidden with 403.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://i.cnblogs.com/GetUsername.aspx is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://i.cnblogs.com/GetMyPassword.aspx is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://i.cnblogs.com/register.aspx?ReturnUrl=http://i.cnblogs.com/EditPosts.aspx?opt=1 is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://i.cnblogs.com/register.aspx?ReturnUrl=http://i.cnblogs.com/ is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://msg.cnblogs.com/GetUsername.aspx is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://msg.cnblogs.com/GetMyPassword.aspx is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:50:22: crawl_and_parse_website.py:88 * 123145312403456 
+https://msg.cnblogs.com/register.aspx?ReturnUrl=http://msg.cnblogs.com/send/FerventDesert is not found. The reason is Not Found with 404.
+WARNING: 07-11 11:51:09: crawl_and_parse_website.py:92 * 123145316610048 
+https://visualstudio.github.com/ is not found. The reason is ('_ssl.c:645: The handshake operation timed out',).
+WARNING: 07-11 11:51:34: crawl_and_parse_website.py:88 * 123145312403456 
+https://i.cnblogs.com/register.aspx?ReturnUrl=http://i.cnblogs.com/EditPosts.aspx?postid=6933868 is not found. The reason is Not Found with 404.
+WARNING: 07-11 13:57:44: crawl_and_parse_website.py:88 * 123145306509312 
+http://699pic.com/?sem=1&sem_kid=33478 is not found. The reason is Forbidden with 403.
+WARNING: 07-11 13:58:12: crawl_and_parse_website.py:88 * 123145306509312 
+http://699pic.com/ is not found. The reason is Forbidden with 403.
+WARNING: 07-11 14:01:51: crawl_and_parse_website.py:88 * 123145316073472 
+https://itunes.apple.com/app/id1178021455 is not found. The reason is Not Found with 404.
+WARNING: 07-11 14:01:55: crawl_and_parse_website.py:92 * 123145306509312 
+https://play.google.com/store/apps/details?id=com.pixabay.pixabayapp is not found. The reason is [Errno 65] No route to host.
+WARNING: 07-11 14:02:37: crawl_and_parse_website.py:92 * 123145316073472 
+https://www.facebook.com/pixabay is not found. The reason is [Errno 61] Connection refused.
