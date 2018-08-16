@@ -1,4 +1,4 @@
-# x-spider
+# multiple-spider
 This tool is designed for crawling and saving websites in multiple threads.
 The web-spider aims to crawl not only the whole websites, but also to crawl elements of websites, such as pictures and text.
 
